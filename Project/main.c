@@ -47,7 +47,7 @@ void setUp(void) {
 
 /* Called in RUN_TEST after executing test function */
 void tearDown(void) {
-  // clean stuff up here
+       // clean stuff up here
 }
 
 /* Testing summation of positive integers */
