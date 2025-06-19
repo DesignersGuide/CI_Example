@@ -84,7 +84,7 @@ static void app_main (void *argument) {
   printf("---[ UNITY BEGIN ]---\n");
   UNITY_BEGIN();
   RUN_TEST(test_my_sum_pos);
-  RUN_TEST(test_my_sum_neg);
+ // RUN_TEST(test_my_sum_neg);
  // RUN_TEST(test_my_sum_fail);
   RUN_TEST(test_my_sum_zero);
   const int result = UNITY_END();

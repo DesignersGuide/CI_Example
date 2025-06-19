@@ -8,5 +8,8 @@
                 "debug": "Arm Debugger FVP"
             }
         }
+    ],
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\work\\Areas\\examples\\ci example\\CI_Example\\out\\Project\\avh\\debug"
     ]
 }
