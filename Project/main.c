@@ -71,7 +71,7 @@ static void test_my_sum_zero(void) {
 /* Failing test with incorrect summation value */
 static void test_my_sum_fail(void) {
   const int sum = my_sum(1, -1);
-  TEST_ASSERT_EQUAL_INT(0, sum);
+  TEST_ASSERT_EQUAL_INT(2, sum);
 }
 
 /*---------------------------------------------------------------------------
@@ -84,8 +84,8 @@ static void app_main (void *argument) {
   printf("---[ UNITY BEGIN ]---\n");
   UNITY_BEGIN();
   RUN_TEST(test_my_sum_pos);
- // RUN_TEST(test_my_sum_neg);
- // RUN_TEST(test_my_sum_fail);
+  RUN_TEST(test_my_sum_neg);
+  RUN_TEST(test_my_sum_fail);
   RUN_TEST(test_my_sum_zero);
   const int result = UNITY_END();
   printf("---[ UNITY END ]---\n");
