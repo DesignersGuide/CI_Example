@@ -42,12 +42,12 @@ static int my_sum(int a, int b) {
 
 /* Called in RUN_TEST before executing test function */
 void setUp(void) {
-  // set stuff up here
+    // set stuff up here
 }
 
 /* Called in RUN_TEST after executing test function */
 void tearDown(void) {
-       // clean stuff up here
+    // clean stuff up here
 }
 
 /* Testing summation of positive integers */
