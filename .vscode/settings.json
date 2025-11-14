@@ -10,6 +10,8 @@
         }
     ],
     "clangd.arguments": [
-        "--compile-commands-dir=c:\\work\\Areas\\examples\\ci example\\CI_Example\\out\\Project\\avh\\debug"
-    ]
+        "--compile-commands-dir=c:\\work\\Projects\\Training\\MDK-6\\Course examples\\EX 6 CI\\CI_Example\\out\\Project\\avh\\release"
+    ],
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never"
 }
